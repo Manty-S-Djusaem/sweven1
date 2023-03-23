@@ -1,0 +1,22 @@
+.search {
+    background-color: rgba(89, 97, 163, 1);
+    height: 70px;
+    border: 8px solid rgba(139, 148, 244, 1);
+    padding-left: 163px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 1);
+
+    input {
+        padding-top: 2px;
+        font-size: 20px;
+
+    }
+
+    img {
+        width: 22px;
+        height: 22px;
+
+    }
+}

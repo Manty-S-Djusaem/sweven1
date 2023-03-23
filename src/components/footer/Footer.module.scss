@@ -1,0 +1,129 @@
+.footer {
+    background-image: url('../assets/footer_fon.png');
+    height: 500px;
+}
+
+#phone_icon {
+    height: 18px;
+}
+
+#email_icon {
+
+    height: 14px;
+
+}
+
+#location_icon {
+
+    height: 15px;
+
+}
+
+#one {
+    padding-top: 181px;
+    font-size: 27px;
+
+}
+
+#two {
+    font-size: 30px;
+    color: white;
+}
+
+#three {
+    font-size: 16px;
+}
+
+.contacts {
+    padding-bottom: 30px;
+
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-around;
+    color: white;
+
+    .company {
+        cursor: pointer;
+    }
+
+    .customers {
+        cursor: pointer;
+    }
+
+    .optomv {
+        cursor: pointer;
+    }
+
+    .our_conts {
+        cursor: pointer;
+
+        .phone_num {
+            cursor: text;
+        }
+    }
+
+    li {
+        margin: 0px 5px 15px 0px;
+        // padding-left: 6px;
+        text-align: start;
+    }
+}
+
+ul {
+    text-align: start;
+    list-style-type: none;
+
+}
+
+.container {
+    h4 {
+        text-align: start;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.line {
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    width: 1100px;
+    padding-bottom: 40px;
+    margin: 0 auto 0;
+}
+
+.container {
+    padding-bottom: 30px;
+
+    background-color: rgba(89, 97, 163, 1);
+
+}
+
+#icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .line {
+        display: none;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        font-weight: 600;
+        display: flex;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .line {
+        display: none;
+    }
+}

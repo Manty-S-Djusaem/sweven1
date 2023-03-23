@@ -1,0 +1,22 @@
+.img_title{
+    background-image: url('../assets/titlee.png') ;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+    border: 8px solid rgba(139, 148, 244, 1);
+
+}
+
+#start{
+    border: 8px solid rgba(139, 148, 244, 1);
+    height: 100px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(74, 89, 250);
+}

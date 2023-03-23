@@ -1,0 +1,31 @@
+.line {
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    width: 1100px;
+    margin: 0 auto 0;
+}
+
+.cart {
+    border: 8px solid rgba(139, 148, 244, 1);
+
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    padding: 100px;
+    height: 347px;
+a{
+    text-decoration: none;
+    color:black;
+}
+    button {
+        width: 200px;
+        height: 52px;
+        background: rgba(200, 205, 249, 1);
+        border-radius: 50px;
+        font-size: 15px;
+        margin-bottom: 24px;
+        margin: 0px 54px;
+        margin-top: 24px;
+        font-weight: 600;
+
+    }
+}

@@ -1,0 +1,23 @@
+#buttons {
+    width: 235px;
+    height: 161px;
+    background-color: rgba(244, 244, 244, 1);
+    display: block;
+
+    p {
+        margin-top: 32px;
+    }
+}
+
+body {
+    background-color: white;
+}
+
+#account_box {
+    border: 8px solid rgba(139, 148, 244, 1);
+    a{
+        text-decoration: none;
+        color:black;
+    }
+
+}

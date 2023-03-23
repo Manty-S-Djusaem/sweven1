@@ -1,0 +1,119 @@
+header {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+body{
+    background-color: #CACACA;
+    margin:0;
+}
+footer{
+    text-align: center;
+    background-color: rgba(89, 97, 163, 1);
+    width: 100%;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blackout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 3;
+    opacity: 0.5;
+}
+.modal_container {
+    z-index: 4;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    width: 490px;
+    height: 531px;
+}
+
+.button_cross{
+    width:100%;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}    
+
+
+
+.modal-container form {
+    margin: 20px 0px;
+}
+/* .container {
+    max-width: 1300px;
+    margin: 10px auto;
+    min-height: 400px;
+} */
+.center-flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* .button-green:hover {
+    background-color: #000000;
+} */
+.form-input {
+    margin: 15px 0;
+}
+.form-input label, .form-input span {
+    display: block;
+}
+.modal-form .error {
+    color: red;
+}
+.form-modal {
+    width: 100%;
+
+}
+.form-modal input {
+    width: 70%;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .modal_container {
+    z-index: 4;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background: white;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 36px;
+    width: 90%;
+
+}
+
+.blackout {
+    height: 100%;
+}
+
+.container {
+    font-size: 9px;
+    margin: 2px;
+ }
+
+
+}

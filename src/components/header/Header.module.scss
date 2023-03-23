@@ -1,0 +1,136 @@
+.header_a {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    font-size: 13px;
+    text-decoration: none;
+    a, #a {
+        margin-right: 20px;
+        text-decoration: none;
+    }
+    a {
+        color: #000000;
+    }
+
+    img {
+        margin-top: 5px;
+        height: 60px;
+        margin-left: 55px;
+        margin-right: 60px;
+    }
+
+    .head_pic {
+        display: flex;
+        margin-top: 10px;
+        padding: 0;
+
+        img {
+            height: 20px;
+            margin: 7px;
+        }
+    }
+}
+
+.burger {
+    display: none;
+}
+
+
+.container {
+    width: 60%;
+    margin-top: 8px;
+
+    a{
+        margin: 40px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .burger {
+        left: 20px;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    top: 27px;
+    align-items: center;
+    }
+
+    .header_a {
+        font-size: 7px;
+
+    .head_pic {
+    position: absolute;
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+    right: 1vh;
+    }
+
+    .head_pic img {
+        height: 14px;
+        margin: 0px;
+    }
+
+}
+.header_a img {
+    margin-top: 10px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+    .container {
+        display: flex;
+        width: 60%;
+        margin-top: 8px;
+        flex-direction: column;
+        position: absolute;
+    }
+
+    .container a {
+        display: none;
+        margin: 2px;
+    }
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  .container{
+    width: 60%;
+    margin-top: 8px;
+    margin-left: -3vh;}
+
+    .container a {
+    font-weight: bold;
+    font-size: 8px;
+    margin: 10px;
+    }
+
+    
+}
+
+
+// a::after {
+//     display: block;
+//     content: "";
+//     background-color: #07aa19;
+//     height: 3px;
+//     width: 0%;
+//     left: 50%;
+//     position: absolute;
+//     -webkit-transition: width .3s ease-in-out;
+//     -moz--transition: width .3s ease-in-out;
+//     transition: width .3s ease-in-out;
+//     -webkit-transform: translateX(-50%);
+//     -moz-transform: translateX(-50%);
+//     transform: translateX(-50%);
+// }
+
+// a:hover:after,
+// .link-hover-center a:focus:after {
+//     width: 20%;
+// }
