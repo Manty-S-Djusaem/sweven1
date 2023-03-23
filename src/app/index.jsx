@@ -16,7 +16,7 @@ const path = (import.meta.env.PROD)? '/shop-template' : ''
   
 const router = createBrowserRouter([
   {
-    path: `${path}/main`,
+    path: `${path}//`,
     element: (
       <div>
         <Header />
